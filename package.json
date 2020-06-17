@@ -1,6 +1,6 @@
 {
   "name": "@julsmodeler/text-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "common text utilities library shared across all juls modeler projects",
   "main": "./build/index.js",
   "types": "./@types/index.d.ts",
