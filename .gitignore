@@ -1,0 +1,8 @@
+node_modules
+package-lock.json
+yarn.lock
+build/
+test/syntax/dotUml/out/
+test/syntax/tracks/out/
+test/build/
+tmp/
