@@ -1,8 +1,18 @@
 {
-  "extends": "../tsconfig-base.json",
   "compilerOptions": {
-    "outDir": "./build",
+    "incremental": true,
+    "target": "ES2015",
+    "module": "commonjs",
+    "declaration": true,
     "declarationDir": "./@types",
+    "sourceMap": true,
+    "outDir": "./es6",
+    "strict": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
     "./src/**/*.ts",
