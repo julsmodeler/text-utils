@@ -19,7 +19,7 @@ export class HtmlUtils {
 	public static ARROW_TABLE = [
 		['->', '&rarr;'],
 		['<-', '&larr;'],
-		['/', '&darr;'],
+		['\\/', '&darr;'],
 		['/\\', '&uarr;'],
 		['|>', '&#9654;'],
 		['<|', '&#9664;'],

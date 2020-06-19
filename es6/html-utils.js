@@ -27,7 +27,7 @@ exports.HtmlUtils = HtmlUtils;
 HtmlUtils.ARROW_TABLE = [
     ['->', '&rarr;'],
     ['<-', '&larr;'],
-    ['/', '&darr;'],
+    ['\\/', '&darr;'],
     ['/\\', '&uarr;'],
     ['|>', '&#9654;'],
     ['<|', '&#9664;'],

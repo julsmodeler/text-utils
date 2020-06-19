@@ -1,6 +1,6 @@
 {
   "name": "@julsmodeler/text-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "common text utilities library shared across all juls modeler projects",
   "main": "./dist/index.js",
   "module": "./es6/index.js",
@@ -24,6 +24,8 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
+    "build-main": "./node_modules/.bin/webpack --mode production",
+    "build-mod": "tsc",
     "pretty": "prettier --write ./src/**/*.ts"
   }
 }
